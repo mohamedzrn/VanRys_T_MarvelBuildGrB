@@ -27,7 +27,15 @@ header {
 #main-logo { width: 300px; padding: 10px 0; }
 
 /* main section styles */
-#character-nav { text-align: center; background-color: black; }
+#character-nav {
+     text-align: center; 
+     background-color: black; 
+    
+    /*add a background image to the nav element */
+    background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .characters { list-style-type: none; }
 .characters li { display: inline-block; }
