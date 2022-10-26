@@ -42,7 +42,7 @@ header {
 .characters { list-style-type: none; }
 
 .characters li {
-     display: inline-block; 
+    display: inline-block; 
     height: 220px;
     margin: 10px 8px;
 
@@ -54,6 +54,8 @@ header {
 
 .characters li h5 {
     padding: 14px 8px;
+    color: white;
+    text-decoration: none;
 }
 
 .characters li img { width: 150px; cursor: pointer; }
@@ -104,4 +106,61 @@ footer {
 
     height: 80px;
     background-color: rgb(40, 37, 37);
+}
+
+/* lightbox styles */
+.lightbox {
+    display: none;
+    width: 100vw; /* viewport width = width of the browser window */
+    height: 100vh; /* viewport height = height of the browser window */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    background-repeat: no-repeat;
+
+    background-position: 40px bottom;
+    background-size: 55vh;
+}
+
+.lb_close {
+    color: white;
+    
+
+    text-decoration: none;
+
+    position: relative;
+    top: 2px;
+    left: 94%;
+    font-weight: bold;
+}
+
+.lb_close:hover { opacity: 0.5; }
+
+.lightbox article{
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading { text-align: left; }
+
+.lb_text { 
+    line-height: 1.6;
+    margin-left: 0;
+    padding-top: 2em;
+}
+
+#lightbox {
+    background-image: url("../images/Cap_LB_Bg.png");
+}
+
+#lightbox2 {
+    background-image: url("../images/Thor_LB_Bg.png");
+}
+
+.lightbox:target {
+    display: block;
 }
