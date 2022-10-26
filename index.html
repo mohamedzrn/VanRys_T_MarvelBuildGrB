@@ -19,12 +19,59 @@
     <main>
         <nav id="character-nav">
             <ul class="characters">
-                <li><img src="images/cap.jpeg" alt="captain america"></li>
-                <li><img src="images/carol.jpeg" alt="captain marvel"></li>
-                <li><img src="images/clint.jpeg" alt="hawkeye"></li>
-                <li><img src="images/hulk.jpeg" alt="hulk"></li>
-                <li><img src="images/thor.jpeg" alt="thor"></li>
-                <li><img src="images/widow.jpeg" alt="black widow"></li>
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="cap"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Captain America</h5>
+                        <!-- <img src="images/cap.jpeg" alt="captain america"> -->
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="carol"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Carol</h5>
+                        <!-- <img src="images/carol.jpeg" alt="captain marvel"> -->
+                        </a>
+                </li>
+
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="clint"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Hawkeye</h5>
+                        <!-- <img src="images/clint.jpeg" alt="hawkeye"> -->
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="hulk"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Hulk</h5>
+                        <!-- <img src="images/hulk.jpeg" alt="hulk"> -->
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#lightbox2">
+                        <div class="sprite" id="thor"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Thor</h5>
+                        <!-- <img src="images/thor.jpeg" alt="thor"> -->
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="widow"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Black Widow</h5>
+                        <!-- <img src="images/widow.jpeg" alt="black widow"> -->
+                        </a>
+                </li>
             </ul>
         </nav>
 
@@ -37,5 +84,38 @@
     <footer class="sticky_footer">
         <h3>All images &copy; Marvel</h3>
     </footer>
+
+    <!---- put the Lightbox at the bottom of the stack (which is the top when it gets rendered)-->
+    <section class="lightbox" id="lightbox">
+        <a href="" class="lb_close"><img src="images/time-marvel-cute.png" alt="close-button-cute" height="80px" width="80px"></a>
+
+        <article>
+            <h3 class="lb_heading">Captain America - The First Avenger</h3>
+            <p class="lb_text">
+                Steve Rogers was born during the Depression and grew up a frail youth in a poor family. His father died when he was a child, his mother when he was in his late teens. Horrified by newsreel footage of the Nazis in Europe, Rogers was inspired to try to enlist in the Army. However, because of his frailty and sickness, he was rejected. Overhearing the boy's earnest plea to be accepted, General Chester Phillips of the U.S. Army offered Rogers the opportunity to take part in a special experiment called Operation: Rebirth. Rogers agreed and was taken to a secret laboratory in Washington, D.C. where he was introduced to Dr. Abrahan Erskine (code named: Prof. Reinstein), the creator to the Super-Soldier formula.
+            </p>
+            <p class="lb_text">
+                After weeks of tests, Rogers was at last administered the Super-Soldier serum. Given part of the compound intravenously and another part orally, Rogers was then bombarded by "vita-rays," a special combination of exotic (in 1941) wavelengths of radiation designed to accelerate and stabilize the serum's effect on his body. Steve Rogers emerged from the vita-ray chamber with a body as perfect as a body can be and still be human. A Nazi spy who observed the experiment murdered Dr. Erskine mere minutes after its conclusion. Erskine died without fully committing the Super-Soldier formula to paper, leaving Steve Rogers the Sole beneficiary of his genius.
+            </p>
+            <p class="lb_text">
+                Roger was then put through an intensive physical and tactical training program,teaching him gymnastics, hand-to-hand combat and military strategy. Three months later, he was given his first assignment, to stop the Nazi agent called the Red Skull. To help him become a symbolic counterpart to the Red Skull, Rogers was given the red, white, and blue costume of Captain America.
+            </p>
+        </article>
+    </section>
+
+    <!---- thor's lighbox-->
+    <section class="lightbox" id="lightbox2">
+        <a href="" class="lb_close"><img src="images/time-marvel-cute.png" alt="close-button-cute" height="80px" width="80px"></a>
+
+        <article>
+            <h3 class="lb_heading">Thor - The Lightning Avenger</h3>
+            <p class="lb_text">
+                Descended from Norse gods, Thor nearly started a war by violating a truce with his family's ancient enemy --the Frost Giants. Odin, his father, banished the young god of thunder to Earth without his memory, to teach Thor how to behave as a mere mortal. After a decade as an earthly doctor, Donald Blake was drawn to Norway, and a subsequent encounter with a race of warmongering aliens. While hiding out in a cave, Blake found a mysterious wooden cane that turned out to be the enchanted hammer Mjolnir -- which transformed him back into the mighty Thor. He drove off the alien invaders and took his place with the Avengers. Shaking off the Blake persona, Thor was soon forced to assume the human identity of EMS technician Jake Olsen. Thor is forever torn between his divine home -- the hallowed halls of Asgard -- and the troubled lands of his adopted home, Earth.
+            </p>
+            <p class="lb_text">
+                Thor's principal weapon is the enchanted hammer Mjolnir, one of the most formidable weapons known to man or god. Among the hammer's various enchantments are its indestructibility and the ability to summon all the elements of storm (wind, rain, thunder, and lightning). His hammer can be thrown both as a means of flight, and as a weapon that always returns to its wielder's hand. Thor's superhuman strength is matched with an immunity to all human diseases, superhuman speed, agility, and simulated flight when he hurls his enchanted hammer Mjolnir.
+            </p>
+        </article>
+    </section>
 </body>
 </html>
