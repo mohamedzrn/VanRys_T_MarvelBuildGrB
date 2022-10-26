@@ -162,5 +162,5 @@ footer {
 }
 
 .lightbox:target {
-    display: none;
+    display: block;
 }
